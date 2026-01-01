@@ -1,0 +1,31 @@
+{
+  "name": "qr-entry-system-pro",
+  "version": "1.0.0",
+  "description": "qr-entry-system",
+  "homepage": "https://github.com/Yosymatu/qr-entry-system#readme",
+  "bugs": {
+    "url": "https://github.com/Yosymatu/qr-entry-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yosymatu/qr-entry-system.git"
+  },
+  "license": "Apache-2.0",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "build": "electron-builder --win --x64"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.0",
+    "jsqr": "^1.4.0"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  },
+  "files": [
+    "build/Release/better_sqlite3.node"
+  ]
+}
