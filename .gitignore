@@ -1,0 +1,5 @@
+# dist フォルダは要らない
+dist/
+
+# node_modules フォルダは要らない
+node_modules/
